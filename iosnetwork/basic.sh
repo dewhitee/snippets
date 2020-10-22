@@ -75,7 +75,7 @@ p ?         # shows the possible arguments for 'p' command
 EXEC configure terminal             # to enter or exit the privileged mode
 exit                                # to exit from the mode
 
-# to remove the command - type the same command with the 'no' argument
+#* to remove the command - type the same command with the 'no' argument
 
 # psw 1: CISCO
 # psw 2: class
