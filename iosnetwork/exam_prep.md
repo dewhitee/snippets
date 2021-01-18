@@ -10,18 +10,18 @@
     http://www.gestioip.net/cgi-bin/subnet_calculator.cgi
 
 # Show commands:
-    R1# show running-config - Проверяет текущую конфигурацию и параметры
-    R1# show interfaces - Проверяет состояние интерфейса и отображает все сообщения об ошибках
-    R1# show ip interface - Проверяет информацию уровня 3 интерфейса
-    R1# show ip interface brief - Предоставляет сводку по ключевым данным для всех сетевых интерфейсов на маршрутизаторе.
-    R1# show ipv6 interface g0/0/0
-    R1# show arp - Проверяет список известных узлов в локальных сетях Ethernet. Команда arp выполняется из командной строки Windows, как показано на рисунке. Команда отображает список всех устройств, находящихся в данный момент в ARP-кэше узла
-    R1# show ip route - Проверяет информацию маршрутизации уровня 3
-    R1# show protocols - Проверяет, какие протоколы работают
-    R1# show version - Проверяет память, интерфейсы и лицензии устройства
-    R1# show cdp neighbors - Протокол CDP предоставляет следующие сведения о каждом из соседних устройств CDP.
-    C:>ipconfig /all
-    C:>ipv6config /all
+```R1# show running-config```         - Проверяет текущую конфигурацию и параметры
+```R1# show interfaces```             - Проверяет состояние интерфейса и отображает все сообщенияоб ошибках
+```R1# show ip interface```           - Проверяет информацию уровня 3 интерфейса
+```R1# show ip interface brief```     - Предоставляет сводку по ключевым данным для всех сетевыхинтерфейсов на маршрутизаторе.
+```R1# show ipv6 interface g0/0/0```
+```R1# show arp```                    - Проверяет список известных узлов в локальных сетяхEthernet. Команда arp выполняется из командной строки Windows, как показано на рисунке. Командаотображает список всех устройств, находящихся в данный момент в ARP-кэше узла
+```R1# show ip route```               - Проверяет информацию маршрутизации уровня 3
+```R1# show protocols```              - Проверяет, какие протоколы работают
+```R1# show version```                - Проверяет память, интерфейсы и лицензии устройства
+```R1# show cdp neighbors```          - Протокол CDP предоставляет следующие сведения о каждом изсоседних устройств CDP.
+```C:>ipconfig /all```
+```C:>ipv6config /all```
 
 # Part 1 (20 min):
 ## Example (Given ip address 192.168.33.128 and mask /25) ----------------------------------:
@@ -180,7 +180,7 @@
     R1(config)# int g0/0
     R1(config-if)# ip address 192.168.1.1 255.255.255.0
 
-###### Interface administration
+###### Interface activation
     R1(config-if)# no shutdown
 
 #### Interface G0/1
@@ -192,7 +192,7 @@
     R1(config)# int g0/1
     R1(config-if)# ip address ... ...
 
-###### Interface administration
+###### Interface activation
     R1(config-if)# no shutdown
 
 #### Create RSA keys
