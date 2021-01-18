@@ -5,9 +5,11 @@
     password: xxxxxxxx
 
 # Links
-    https://miniwebtool.com/ip-address-to-binary-converter/?ip=192.168.33.182
-    https://subnettingpractice.com/vlsm.html
-    http://www.gestioip.net/cgi-bin/subnet_calculator.cgi
+[IP address to binary calculator](https://miniwebtool.com/ip-address-to-binary-converter/?ip=192.168.33.182)
+
+[VLSM table creation (Part 1)](https://subnettingpractice.com/vlsm.html)
+
+[Calculate IPv6](http://www.gestioip.net/cgi-bin/subnet_calculator.cgi)
 
 # Show commands:
 ```R1# show running-config```         - Проверяет текущую конфигурацию и параметры
@@ -269,6 +271,7 @@
     2002:DB8:ACAD:2::/64
 
 #### PC-A to PC-B
+
 
 #### PC-B to R1, G0/1
     2002:DB8:ACAD:2::/64
